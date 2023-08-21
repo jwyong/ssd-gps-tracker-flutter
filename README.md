@@ -1,16 +1,3 @@
-# flutter_app
+# SSD GPS Tracker
 
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+A flutter app which is primarily used to track GPS devices mounted on fleets of delivery trucks / etc. The GPS device was outsourced from external parties and customised to send GPS location to our server, which then sends the location to this Flutter app through REST API calls. The app then maps out the realtime location of said GPS device using google maps, as well as playing back past history of up to a year of the recorded travel route. 
